@@ -1,4 +1,8 @@
 {
     "appService.defaultWebAppToDeploy": "/subscriptions/b5c0a9ff-f252-4a9e-a6bc-e4ceae74f892/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/secure-node-js-app-test",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
 }
